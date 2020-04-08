@@ -1,6 +1,26 @@
 # Authapp
 
+Practical exercise of Udemy course: [Angular: De cero a experto creando aplicaciones (Angular 9+)](https://www.udemy.com/share/101WdsB0sfd1tTRXo=/).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+
+## Auth0
+
+Create an account and check more information at [Auth0](https://auth0.com/).
+
+Create a new application there and follow the instructtions in the Quick Start section to configure your proyect. 
+
+As Application type select Single Page Application. Further, put `http://localhost:4200/` in Allowed Callback URLs, Allowed Logout URLs and Allowed Web Origins.
+
+In the Settings section you can find the domain and client_id that you need to indicate in `src/app/services/auth.service.ts` file where requested.
+
+## Install Auth0
+
+Run `npm install @auth0/auth0-spa-js --save` to install Auth0.
+
+## Install dependencies
+
+Run `npm install` to install dependencies.
 
 ## Development server
 
