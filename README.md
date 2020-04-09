@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Create an account and check more information at [Auth0](https://auth0.com/).
 
-Create a new application there and follow the instructtions in the Quick Start section to configure your proyect. 
+Create a new application there and follow the instructions in the Quick Start section to configure your proyect. 
 
 As Application type select Single Page Application. Further, put `http://localhost:4200/` in Allowed Callback URLs, Allowed Logout URLs and Allowed Web Origins.
 
